@@ -1,0 +1,27 @@
+.historyTrade__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.win {
+	color: #01c076;
+}
+
+.lose {
+	color: #f81057;
+}
+
+.historyTrade__count {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.win-result {
+	color: #01c076;
+}
+
+.lose-result {
+	color: #f81057;
+}

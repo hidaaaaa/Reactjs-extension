@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+html,
+body {
+	width: 700px;
+	height: 500px;
+	margin: 0;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: Kanit, sans-serif !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+body::-webkit-scrollbar-track {
+	background-color: transparent;
+	border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #ffa6a6;
+	border-radius: 10px;
+}
